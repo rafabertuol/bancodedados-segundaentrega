@@ -14,3 +14,4 @@ Incluir aqui instruções de como carregar os scripts e requisitos para instanci
 
 O repositório deve ser compartilhado com link ou no github da professora: profdeborapaulo.
 
+![image](https://github.com/user-attachments/assets/4ddf79eb-1776-49cf-88b0-88f4a4f88bf3)
