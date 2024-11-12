@@ -7,6 +7,7 @@
 - Gabriela Carvalho Semensato
 - Rafaela Bertuol
 
+## O objetivo deste trabalho foi desenvolver o aplicativo Sênior Booking, uma plataforma digital destinada ao agendamento e monitoramento de atividades em creches especializadas para idosos.
 
 Entregar arquivos no AVA, mas além disso, subir esses arquivos no Github:
 
