@@ -33,7 +33,7 @@ Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requ
 - Desenvolvimento seguindo boas práticas de normalização.
 
 ## Scripts DML e DDL:
-- Clicando nesse [LINK](https://drive.google.com/drive/folders/1-A5vAYJlkkqCIb5QHU3h3_99v79WrkXk?usp=sharing) você tem acesso aos scripts DML e DDL do projeto de dados.
+- Os Scripts estão disponíveis nesse repsositório do Github, já commitados.
 
 ## Testando o projeto:
 - No vídeo disponível [NESTE LINK](https://www.youtube.com/watch?v=vW4sEiFMvUQ) é realizado um teste no banco de dados com os scripts citados acima. Para rodar os testes, foi utilizado o Software MySQL.
