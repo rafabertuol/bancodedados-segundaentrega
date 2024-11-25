@@ -8,11 +8,32 @@
 - Gabriela Carvalho Semensato
 - Rafaela Bertuol
 
-### O objetivo deste trabalho foi desenvolver o aplicativo Sênior Booking, uma plataforma digital destinada ao agendamento e monitoramento de atividades em creches especializadas para idosos.
+# Sênior Booking - Aplicativo de Agendamento e Monitoramento para Idosos
 
-Incluir aqui instruções de como carregar os scripts e requisitos para instanciar o SGBD (via docker desktop ou outro);
+## Descrição do Projeto
+O Sênior Booking é uma plataforma digital projetada para o agendamento e monitoramento de atividades em creches especializadas para idosos. Este projeto foi desenvolvido com o objetivo de facilitar a gestão de cuidados e promover a autonomia dos usuários e das instituições.
 
-O repositório deve ser compartilhado com link ou no github da professora: profdeborapaulo.
+### Funcionalidades:
+- **Agendamento Online**: Permite agendar atividades e consultas diretamente pelo aplicativo.
+- **Monitoramento de Informações**: Inclui dados sobre medicamentos, alergias e capacidade funcional (usando a Escala de Katz).
+- **Gestão Financeira**: Integrações com plataformas como PagSeguro para gerenciar pagamentos e notas fiscais.
+
+## Estrutura do Banco de Dados
+- **Modelo Conceitual**: Identificação de entidades como Cliente, Atividade, Medicamento e Alergia.
+- **Modelo Lógico**: Definição das tabelas e relacionamentos normalizados.
+- **Modelo Físico**: Implementação com scripts SQL, incluindo procedures, triggers e views.
+
+## Metodologia
+Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requisitos, design, implementação, testes e feedback contínuo. O foco principal foi a eficiência e a usabilidade do sistema.
+
+### Tecnologias Utilizadas:
+- Banco de Dados Relacional (SQL)
+- Integração com APIs externas para suporte e pagamento
+- Desenvolvimento seguindo boas práticas de normalização
+
+### Instruções para carregar os scripts:
+Via docker ou outro? Requisitos para instanciar o SGBD?
+
 
 Falta: MODELO CONCEITUAL, LOGICO E FISICO EM PDF. SCRIPTS DDL E DML. INSTRUCOES DE COMO CARREGAR O SCRIPTS.
 
