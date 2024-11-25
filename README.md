@@ -29,8 +29,7 @@ Toda a estrutura de modelos pode ser verificada [NESTE LINK](https://drive.googl
 Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requisitos, design, implementação, testes e feedback contínuo. O foco principal foi a eficiência e a usabilidade do sistema.
 
 ## Tecnologias Utilizadas:
-- Banco de Dados Relacional (SQL).
-- Integração com APIs externas para suporte e pagamento.
+- Banco de Dados Relacional (MySQL).
 - Desenvolvimento seguindo boas práticas de normalização.
 
 ## Scripts DML e DDL:
