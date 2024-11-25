@@ -29,13 +29,89 @@ Toda a estrutura de modelos pode ser verificada [NESTE LINK](https://drive.googl
 Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requisitos, design, implementação, testes e feedback contínuo. O foco principal foi a eficiência e a usabilidade do sistema.
 
 ## Tecnologias Utilizadas:
-- Banco de Dados Relacional (MySQL).
-- Desenvolvimento seguindo boas práticas de normalização.
+1. **Docker** - Para criar um contêiner MySQL.
+2. **MySQL Server** - O servidor de banco de dados.
+3. **MySQL Workbench** - Para gerenciar e executar scripts SQL.
+4. **Visual Studio Code (opcional)** - Para edição e organização de scripts SQL.
 
 ## Scripts DML e DDL:
 - Os Scripts estão disponíveis nesse repositório do Github, já commitados.
 
-## Testando o projeto:
-- No vídeo disponível a baixo é realizado um teste no banco de dados com os scripts citados acima. Para rodar os testes, foi utilizado o Software MySQL.
+## **Passo a Passo**
+
+### 1. **Instalação das Ferramentas**
+
+#### Docker
+1. Faça o download e instale o [Docker Desktop](https://www.docker.com/products/docker-desktop).
+2. Após a instalação, verifique se o Docker está funcionando com o comando:
+   ```bash
+   docker --version
+   ```
+
+#### MySQL (via Docker)
+1. Crie um contêiner MySQL:
+
+    ```bash
+    docker run --name mysql_senior_app -e MYSQL_ROOT_PASSWORD=senha_root -p 3306:3306 -d mysql:8.0
+    ```
+
+
+2. Verifique se o contêiner está em execução:
+
+    ```bash
+    docker ps
+    ```
+
+#### MySQL Workbench
+1. Baixe e instale o MySQL Workbench.
+2. Configure uma conexão com o banco de dados MySQL:
+
+    - Host: localhost
+
+    - Porta: 3306
+
+    - Usuário: root
+
+    - Senha: senha_root
+
+
+#### Visual Studio Code (opcional)
+1. Faça o download e instale o Visual Studio Code.
+
+2. Instale a extensão SQL Tools para facilitar a edição dos scripts.
+
+### 2. **Configuração do Banco de Dados**
+#### Executar os Scripts SQL
+1. Abra o MySQL Workbench e conecte-se ao banco MySQL.
+
+2. Execute os arquivos na ordem:
+
+    - BD_SENIOR_APP.sql: Criação do esquema e tabelas.
+
+    - INPUT_DADOS_SENIOR_APP.sql: Inserção de dados de exemplo.
+
+    - CREATE_VIEW_SENIOR_APP.sql: Criação de views.
+
+#### Criar Triggers e Procedures
+- No mesmo ambiente do MySQL Workbench, execute os scripts de triggers e procedures conforme necessário (veja os exemplos incluídos na pasta).
+
+### 3. **Estrutura do Projeto**
+
+```bash
+├── BD_SENIOR_APP.sql              # Script para criação das tabelas e esquema
+├── INPUT_DADOS_SENIOR_APP.sql     # Dados de exemplo para o banco
+├── CREATE_VIEW_SENIOR_APP.sql     # Criação de views do projeto
+└── README.md                      # Documentação do projeto
+```
+
+### 4. **Testando a Implementação**
+1. Conecte-se ao banco no MySQL Workbench.
+2. Teste as queries com os dados de exemplo inseridos.
+3. Verifique as views e os resultados de triggers/procedures.
+
+- Abaixo está um vídeo demonstrando que todos os script apresentados nesse diretorio estão sendo testados e a saída foi OK em todos eles.
 
 [![Youtube](Imagem/Teste_banco.png)](https://www.youtube.com/watch?v=vW4sEiFMvUQ "Assistir no Youtube")
+
+### 5. **Contribuições**
+Fique à vontade para abrir issues ou enviar pull requests para melhorias.
