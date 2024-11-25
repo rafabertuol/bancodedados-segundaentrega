@@ -11,7 +11,7 @@
 ## Sênior Booking - Aplicativo de Agendamento e Monitoramento para Idosos
 
 ## Descrição do Projeto
-O Sênior Booking é uma plataforma digital projetada para o agendamento e monitoramento de atividades em creches especializadas para idosos. Este projeto foi desenvolvido com o objetivo de facilitar a gestão de cuidados e promover a autonomia dos usuários e das instituições.
+O Sênior Booking é uma plataforma digital projetada para o agendamento e monitoramento de atividades em creches especializadas para idosos. Este projeto foi desenvolvido com o objetivo de facilitar a gestão de cuidados e promover a autonomia dos usuários e das instituições. O projeto completo pode ser lido [AQUI]()
 
 ### Funcionalidades:
 - **Agendamento Online**: Permite agendar atividades e consultas diretamente pelo aplicativo.
@@ -23,16 +23,22 @@ O Sênior Booking é uma plataforma digital projetada para o agendamento e monit
 - **Modelo Lógico**: Definição das tabelas e relacionamentos normalizados.
 - **Modelo Físico**: Implementação com scripts SQL, incluindo procedures, triggers e views.
 
+Toda a estrutura pode ser verificada [NESTE LINK]()
+
 ## Metodologia
 Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requisitos, design, implementação, testes e feedback contínuo. O foco principal foi a eficiência e a usabilidade do sistema.
 
-### Tecnologias Utilizadas:
-- Banco de Dados Relacional (SQL)
-- Integração com APIs externas para suporte e pagamento
-- Desenvolvimento seguindo boas práticas de normalização
+## Tecnologias Utilizadas:
+- Banco de Dados Relacional (SQL).
+- Integração com APIs externas para suporte e pagamento.
+- Desenvolvimento seguindo boas práticas de normalização.
 
-### Instruções para carregar os scripts:
-Via docker ou outro? Requisitos para instanciar o SGBD?
+## Scripts DML e DDL:
+- Clicando nesse [LINK](https://drive.google.com/drive/folders/1-A5vAYJlkkqCIb5QHU3h3_99v79WrkXk?usp=sharing) você tem acesso aos scripts DML e DDL do projeto de dados.
+
+## Testando o projeto:
+
+
 
 
 Falta: MODELO CONCEITUAL, LOGICO E FISICO EM PDF. SCRIPTS DDL E DML. INSTRUCOES DE COMO CARREGAR O SCRIPTS.
