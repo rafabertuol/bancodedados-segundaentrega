@@ -11,7 +11,7 @@
 ## Sênior Booking - Aplicativo de Agendamento e Monitoramento para Idosos
 
 ## Descrição do Projeto
-O Sênior Booking é uma plataforma digital projetada para o agendamento e monitoramento de atividades em creches especializadas para idosos. Este projeto foi desenvolvido com o objetivo de facilitar a gestão de cuidados e promover a autonomia dos usuários e das instituições. O projeto completo pode ser lido [AQUI]()
+O Sênior Booking é uma plataforma digital projetada para o agendamento e monitoramento de atividades em creches especializadas para idosos. Este projeto foi desenvolvido com o objetivo de facilitar a gestão de cuidados e promover a autonomia dos usuários e das instituições. O projeto completo pode ser lido [NESTE LINK](https://drive.google.com/file/d/1pjYfpxScgnc2CeG29uFMzmQ4Bt-yg9WP/view?usp=sharing).
 
 ### Funcionalidades:
 - **Agendamento Online**: Permite agendar atividades e consultas diretamente pelo aplicativo.
@@ -23,7 +23,7 @@ O Sênior Booking é uma plataforma digital projetada para o agendamento e monit
 - **Modelo Lógico**: Definição das tabelas e relacionamentos normalizados.
 - **Modelo Físico**: Implementação com scripts SQL, incluindo procedures, triggers e views.
 
-Toda a estrutura de modelos pode ser verificada [NESTE LINK]()
+Toda a estrutura de modelos pode ser verificada [NESTE LINK](https://drive.google.com/file/d/1Obf1CjTkpdDdtcXPHUSFC7gpiuGgeNeR/view?usp=sharing).
 
 ## Metodologia
 Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requisitos, design, implementação, testes e feedback contínuo. O foco principal foi a eficiência e a usabilidade do sistema.
