@@ -37,4 +37,4 @@ Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requ
 - Clicando nesse [LINK](https://drive.google.com/drive/folders/1-A5vAYJlkkqCIb5QHU3h3_99v79WrkXk?usp=sharing) você tem acesso aos scripts DML e DDL do projeto de dados.
 
 ## Testando o projeto:
-- No vídeo disponível [NESTE LINK](https://www.youtube.com/watch?v=vW4sEiFMvUQ) é realizado um teste no banco de dados com os scripts citados acima. 
+- No vídeo disponível [NESTE LINK](https://www.youtube.com/watch?v=vW4sEiFMvUQ) é realizado um teste no banco de dados com os scripts citados acima. Para rodar os testes, foi utilizado o Software MySQL.
