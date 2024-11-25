@@ -23,7 +23,7 @@ O Sênior Booking é uma plataforma digital projetada para o agendamento e monit
 - **Modelo Lógico**: Definição das tabelas e relacionamentos normalizados.
 - **Modelo Físico**: Implementação com scripts SQL, incluindo procedures, triggers e views.
 
-Toda a estrutura pode ser verificada [NESTE LINK]()
+Toda a estrutura de modelos pode ser verificada [NESTE LINK]()
 
 ## Metodologia
 Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requisitos, design, implementação, testes e feedback contínuo. O foco principal foi a eficiência e a usabilidade do sistema.
@@ -37,15 +37,4 @@ Foi utilizada uma abordagem iterativa, passando pelas etapas de análise de requ
 - Clicando nesse [LINK](https://drive.google.com/drive/folders/1-A5vAYJlkkqCIb5QHU3h3_99v79WrkXk?usp=sharing) você tem acesso aos scripts DML e DDL do projeto de dados.
 
 ## Testando o projeto:
-
-
-
-
-Falta: MODELO CONCEITUAL, LOGICO E FISICO EM PDF. SCRIPTS DDL E DML. INSTRUCOES DE COMO CARREGAR O SCRIPTS.
-
-![image](https://github.com/user-attachments/assets/4ddf79eb-1776-49cf-88b0-88f4a4f88bf3)
-
-![image](https://github.com/user-attachments/assets/7c255af5-4bce-40ce-99e6-7aecbaa8245d)
-
-![image](https://github.com/user-attachments/assets/24ca9687-6c3c-4604-bd30-fde5c747bd1d)
-
+- No vídeo disponível [NESTE LINK](https://www.youtube.com/watch?v=vW4sEiFMvUQ) é realizado um teste no banco de dados com os scripts citados acima. 
